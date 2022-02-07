@@ -1,12 +1,11 @@
-import Counter from "./Counter.js";
-import Todo from "./Todo";
+import MyProvider from './MyProvider';
+import MyComponent from './MyComponent';
 
 function App() {
   return (
-    <div>
-      <Counter />
-      <Todo />
-    </div>
+    <MyProvider>
+      <MyComponent />
+    </MyProvider>
   );
 }
 
